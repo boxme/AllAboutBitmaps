@@ -10,15 +10,20 @@
         <activity
             android:name="com.desmond.allaboutbitmaps.MainActivity"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.desmond.allaboutbitmaps.BitmapAllocationActivity"
+            android:label="@string/title_activity_bitmap_allocation" >
+        </activity>
+        <activity
+            android:name="com.desmond.allaboutbitmaps.bitmapPixelization.BitmapPixelizationActivity"
+            android:label="@string/title_activity_bitmap_pixelization" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name="com.desmond.allaboutbitmaps.BitmapAllocationActivity"
-            android:label="@string/title_activity_bitmap_allocation" >
         </activity>
     </application>
 
